@@ -456,12 +456,12 @@ fill: #AFB1B8;
 }
 .join-title {
   font-family: Roboto;
-font-size: 14px;
 font-style: normal;
-font-weight: 700;
+font-weight: bold;
+font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.03em;
-text-align: left;
+text-transform: uppercase;
 color: #FFFFFF;
 margin-bottom: 30px;
 
