@@ -310,7 +310,8 @@ margin-right: 30px;
 
 /* ---------client------------- */
 .client {
-
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .h-client {
   font-family: "Roboto", sans-serif;
@@ -322,6 +323,14 @@ margin-right: 30px;
   letter-spacing: 0.03em;
   color: #212121;
   margin-bottom: 50px;
+}
+.client-icon {
+  display: flex;
+
+}
+.client-icon-list {
+  width: 170px;
+  height: 85px;
 }
 /* -----FOOTER----- */
 
