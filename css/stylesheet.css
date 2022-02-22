@@ -333,8 +333,8 @@ height: 70px;
   border-radius: 50%;
   
   }
-  .social-list-link .social-list-icon:hover,
-  .social-list-link .social-list-icon:focus {
+  .social-list-link:hover .social-list-icon,
+  .social-list-link:focus .social-list-icon {
     fill: #FFFFFF;;
   }
   .social-list-icon {
@@ -487,15 +487,15 @@ margin-bottom: 30px;
   border-radius: 50%;
   
   }
-  .footer-social-list-link .footer-social-list-icon:hover,
-  .footer-social-list-link .footer-social-list-icon:focus {
+  .footer-social-list-link:hover .footer-social-list-icon,
+  .footer-social-list-link:hover .footer-social-list-icon:focus {
     fill: #FFFFFF;;
   }
   .footer-social-list-icon {
     fill: #AFB1B8;
     
   }
-  .footer-social-list-link:hover,
+  .footer-social-list-link:hover, 
   .footer-social-list-link:focus {
     background-color: #2196F3;;
   }
