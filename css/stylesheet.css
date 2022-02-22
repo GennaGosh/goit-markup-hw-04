@@ -87,6 +87,8 @@ img {
 }
 
 .contact-mail {
+  display: flex;
+  justify-content: center;
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -98,6 +100,8 @@ img {
 
 }
 .contact-number {
+  display: flex;
+  justify-content: center;
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -109,10 +113,12 @@ img {
 .contact-mail:hover,
 .contact-mail:focus {
   color: #2196f3;
+  fill: #2196f3;
 }
 .contact-number:hover,
 .contact-number:focus {
   color: #2196f3;
+  fill: #2196f3;
 }
 .main-title {
   font-family: "Roboto", sans-serif;
@@ -127,6 +133,23 @@ img {
   margin-left: auto;
   margin-bottom: 30px;
 }
+.contact-icon-phone {
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+
+}
+.contact-icon-mail {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+
+}
+/* .contact-icon-phone, .contact-icon-mail:hover,
+.contact-icon-phone, .contact-icon-mail:focus {
+  fill: #2196f3; */
+}
+
 /* ------HERO ------*/
 .hero {
   display: flex;
