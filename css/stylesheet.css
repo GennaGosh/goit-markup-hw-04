@@ -326,12 +326,23 @@ margin-right: 30px;
 }
 .client-icon {
   display: flex;
-
+  justify-content: center;
+  
 }
 .client-icon-list {
   width: 170px;
   height: 85px;
+  border: 1px solid #AFB1B8
+  
 }
+.client-icon-list:not(:last-child) {
+  padding-right: 30px;
+}
+.client-icon-link {
+  width: 106px;
+  height: 55px;
+}
+
 /* -----FOOTER----- */
 
 .footer {
