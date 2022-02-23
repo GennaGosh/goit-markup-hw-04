@@ -96,6 +96,7 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
+  fill: #757575;
   margin-right: 50px;
 
 }
@@ -108,6 +109,7 @@ img {
   font-size: 14px;
   line-height: 1.14;
   color: #757575;
+  fill: #757575;
   margin-left: auto;
 }
 .contact-mail:hover,
@@ -125,17 +127,17 @@ img {
   width: 10px;
   height: 16px;
   margin-right: 10px;
+  
+
 
 }
 .contact-icon-mail {
   width: 16px;
   height: 12px;
   margin-right: 10px;
+  
 
 }
-/* .contact-icon-phone, .contact-icon-mail:hover,
-.contact-icon-phone, .contact-icon-mail:focus {
-  fill: #2196f3; */
 
 
 /* ------HERO ------*/
@@ -181,14 +183,16 @@ img {
   text-align: center;
   letter-spacing: 0.06em;
   color: #FFFFFF;
+  background-color: #2196f3;
+  border: none;
   border-radius: 4px;
 
 }
-.model-btn:hover,
+/* .model-btn:hover,
 .model-btn:focus {
   background-color: #2196f3;
   color: #ffffff;
-}
+} */
 /* SKILLS */
 .skils-list {
 padding-top: 94px;
@@ -315,7 +319,7 @@ height: 70px;
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
-  margin-bottom: 30px; 
+  margin-bottom: 16px; 
 }
 .social-list {
   display: flex;
@@ -363,6 +367,7 @@ height: 70px;
 }
 .client-icon {
   display: flex;
+  justify-content: center;
   margin-left: -30px;
   margin-top: -30px;
 
@@ -375,9 +380,9 @@ height: 70px;
   align-items: center;
   margin-left: 30px;
   margin-top: 30px;
-  width: 170px;
-  height: 85px;
-  border: 1px solid #AFB1B8
+  /* width: 170px;
+  height: 85px; */
+  /* border: 1px solid #AFB1B8 */
   
 }
 .client-icon-list:not(:last-child) {
@@ -386,15 +391,25 @@ height: 70px;
 .client-icon-link {
   width: 106px;
   height: 55px;
-fill: #AFB1B8;
+  fill: #AFB1B8;
 
 }
-.client-icon-link:hover,
-.client-icon-link:focus {
+.client-icon-item:hover .client-icon-link,
+.client-icon-item:focus .client-icon-link {
   fill: #2196F3;
-  ;
+  /* border: 1px solid #2196F3; */
+
+}
+.client-icon-item:hover {
+  border: 1px solid #2196F3;
 }
 .client-icon-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 85px;
+  border: 1px solid #AFB1B8
 
 }
 
@@ -487,10 +502,10 @@ margin-bottom: 30px;
   }
   .footer-social-list-link:hover .footer-social-list-icon,
   .footer-social-list-link:hover .footer-social-list-icon:focus {
-    fill: #FFFFFF;;
+    fill: #FFFFFF;
   }
   .footer-social-list-icon {
-    fill: #AFB1B8;
+    fill: #FFFFFF;
     
   }
   .footer-social-list-link:hover, 
