@@ -120,19 +120,7 @@ img {
   color: #2196f3;
   fill: #2196f3;
 }
-.main-title {
-  font-family: "Roboto", sans-serif;
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: #ffffff;
-  margin-right: auto;
-  margin-left: auto;
-  margin-bottom: 30px;
-}
+
 .contact-icon-phone {
   width: 10px;
   height: 16px;
@@ -148,18 +136,14 @@ img {
 /* .contact-icon-phone, .contact-icon-mail:hover,
 .contact-icon-phone, .contact-icon-mail:focus {
   fill: #2196f3; */
-}
+
 
 /* ------HERO ------*/
-.hero {
+ .hero {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
-  /* height: 600px; */
-  
-
 }
 .section-hero {
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('../img/hero/hero.jpg');
@@ -168,8 +152,22 @@ img {
   padding-top: 200px;
   padding-bottom: 200px;
   background-color: #C4C4C4;;
- 
+
 }
+.main-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+  /* margin-right: auto;
+  margin-left: auto; */
+  margin-bottom: 30px;
+}
+
 
 /* ----HERO BUTTON---- */
 .model-btn {
@@ -184,8 +182,8 @@ img {
   letter-spacing: 0.06em;
   color: #FFFFFF;
   border-radius: 4px;
-}
 
+}
 .model-btn:hover,
 .model-btn:focus {
   background-color: #2196f3;
